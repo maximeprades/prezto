@@ -13,7 +13,6 @@ fi
 # Customize to your needs...
 # Local settings
 source ~/.dotfiles/ruby/aliases.zsh
-source ~/.dotfiles/ruby/rbenv.zsh
 source ~/.dotfiles/system/aliases.zsh
 source ~/.dotfiles/system/env.zsh
 source ~/.dotfiles/system/grc.zsh
