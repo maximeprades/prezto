@@ -22,3 +22,7 @@ source ~/.dotfiles/system/path.zsh
 source ~/.dotfiles/zendesk/aliases.zsh
 source ~/.dotfiles/zendesk/path.zsh
 
+function ssht(){
+  ssh $* -t 'tmux a || tmux || /bin/bash'
+}
+
