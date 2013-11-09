@@ -11,17 +11,4 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-# Local settings
-source ~/.dotfiles/ruby/aliases.zsh
-source ~/.dotfiles/system/aliases.zsh
-source ~/.dotfiles/system/env.zsh
-source ~/.dotfiles/system/grc.zsh
-source ~/.dotfiles/system/keys.zsh
-source ~/.dotfiles/system/path.zsh
-source ~/.dotfiles/zendesk/aliases.zsh
-source ~/.dotfiles/zendesk/path.zsh
-
-function ssht(){
-  ssh $* -t 'tmux a || tmux || /bin/bash'
-}
-
+source ~/.zshrc.custom
